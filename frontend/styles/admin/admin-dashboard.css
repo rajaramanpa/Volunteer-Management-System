@@ -1,0 +1,34 @@
+.admin-main h2 {
+  font-size: 28px;
+  margin-bottom: 26px;
+  color: #0f172a;
+}
+
+/* ===== STATS GRID ===== */
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+/* ===== STAT CARD ===== */
+.stat-card {
+  background: white;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 25px 55px rgba(0, 0, 0, 0.08);
+  font-size: 15px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.stat-card b {
+  display: block;
+  margin-top: 12px;
+  font-size: 36px;
+  color: #020617;
+}
+
+.stat-card.pending {
+  background: linear-gradient(135deg, #fff7ed, #ffedd5);
+}

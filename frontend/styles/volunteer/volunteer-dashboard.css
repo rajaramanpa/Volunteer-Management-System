@@ -1,0 +1,51 @@
+/* ===== DASHBOARD GRID ===== */
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 24px;
+}
+
+/* ===== PROFILE CARD ===== */
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 26px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.card p {
+  font-size: 14px;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+/* ===== STATS ===== */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #475569;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card b {
+  display: block;
+  font-size: 26px;
+  margin-top: 6px;
+  color: #0f172a;
+}

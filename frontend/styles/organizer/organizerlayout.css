@@ -1,0 +1,79 @@
+.dashboard.organizer {
+  display: flex;
+  min-height: 100vh;
+  background: #f8fafc;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 260px;
+  background: linear-gradient(180deg, #020617, #020617);
+  padding: 28px 22px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+.sidebar a {
+  padding: 12px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #cbd5f5;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+/* ===== MAIN ===== */
+.dashboard-content {
+  flex: 1;
+  padding: 36px 40px;
+  background: #f8fafc;
+}
+
+/* ===== HEADER ===== */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.dashboard-header h1 {
+  font-size: 30px;
+  color: #020617;
+}
+
+.dashboard-header span {
+  font-size: 14px;
+  color: #475569;
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.btn-danger:hover {
+  box-shadow: 0 14px 30px rgba(239, 68, 68, 0.45);
+}

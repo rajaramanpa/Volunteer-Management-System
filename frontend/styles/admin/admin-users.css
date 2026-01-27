@@ -1,0 +1,28 @@
+.admin-main h2 {
+  margin-bottom: 18px;
+}
+
+/* FILTER */
+.admin-main select {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #c7d2fe;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+/* TABLE SHARED */
+.admin-table td,
+.admin-table th {
+  vertical-align: middle;
+}
+
+/* DELETE BUTTON */
+.admin-actions .danger {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.admin-actions .danger:hover {
+  box-shadow: 0 12px 30px rgba(239, 68, 68, 0.45);
+}

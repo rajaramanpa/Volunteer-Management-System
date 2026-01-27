@@ -1,0 +1,89 @@
+/* FILTER BAR */
+.event-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.event-filters button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #475569;
+  transition: all 0.25s ease;
+}
+
+.event-filters button:hover {
+  background: #f1f5f9;
+}
+
+.event-filters button.active {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  border: none;
+}
+
+/* EVENTS GRID */
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+/* JOIN BUTTON */
+.join-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  opacity: 0.9;
+}
+
+/* EMPTY TEXT */
+.empty-text {
+  margin-top: 20px;
+  color: #64748b;
+  font-size: 14px;
+}
+.my-events-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.event-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.07);
+}
+
+.event-card h3 {
+  font-size: 17px;
+  margin-bottom: 6px;
+  color: #0f172a;
+}
+
+.event-card p {
+  font-size: 13px;
+  color: #475569;
+}
+.join-btn.disabled {
+  background: #e5e7eb;
+  color: #94a3b8;
+  cursor: not-allowed;
+}

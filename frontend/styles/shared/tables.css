@@ -1,0 +1,25 @@
+.data-table {
+  width: 100%;
+  background: var(--bg-glass);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+
+.data-table th {
+  padding: 14px;
+  text-align: left;
+  color: #a5b4fc;
+  font-weight: 600;
+}
+
+.data-table td {
+  padding: 14px;
+  color: var(--text-main);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.data-table tr:hover {
+  background: rgba(255,255,255,0.04);
+}
