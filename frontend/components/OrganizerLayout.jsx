@@ -21,8 +21,11 @@ function OrganizerLayout() {
         <NavLink to="/organizer/my-events">My Events</NavLink>
         <NavLink to="/organizer/history">History</NavLink>
        <NavLink to="/organizer/volunteer-requests">Volunteers</NavLink>
-<NavLink to="/organizer/volunteer-profile">Profile</NavLink>
 
+<NavLink to="/organizer/attendance">Attendance</NavLink>
+<NavLink to="/organizer/docverify">Document Verification</NavLink>
+
+<NavLink to="/organizer/help-support">Help&Support</NavLink>
       </aside>
 
       {/* MAIN CONTENT */}
@@ -30,7 +33,7 @@ function OrganizerLayout() {
 
         {/* TOP HEADER */}
         <div className="dashboard-header">
-          <h1>Dashboard</h1>
+          <h1>Organizer</h1>
 
           <div>
             <span>Welcome, <b>{user.name}</b></span>

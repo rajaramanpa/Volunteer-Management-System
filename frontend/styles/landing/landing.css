@@ -76,7 +76,7 @@
 /* ===== HERO ===== */
 .hero {
   min-height: 90vh;
-  background: linear-gradient(135deg, #0f172a, #1e293b);
+  background: radial-gradient(circle at top left, #1d2a3f, #020617 70%);
   color: white;
   display: flex;
   flex-direction: column;

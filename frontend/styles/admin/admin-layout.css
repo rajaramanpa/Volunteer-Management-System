@@ -15,10 +15,11 @@
   flex-direction: column;
   gap: 14px;
 }
-
+ 
 .admin-sidebar h2 {
   font-size: 22px;
   margin-bottom: 22px;
+  color: white;
 }
 
 .admin-sidebar a {

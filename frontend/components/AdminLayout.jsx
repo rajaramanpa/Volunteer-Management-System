@@ -18,7 +18,8 @@ function AdminLayout() {
         <Link to="/admin/dashboard">Dashboard</Link>
         <Link to="/admin/users">Users</Link>
         <Link to="/admin/events">Events</Link>
-
+        <Link to="/admin/help-support">Help&Support</Link>
+        <Link to="/admin/doc-verify">Document Verification</Link>
         <button
           className="admin-logout"
           onClick={() => {

@@ -20,8 +20,11 @@ function VolunteerLayout() {
         <NavLink to="/volunteer/dashboard">Dashboard</NavLink>
         <NavLink to="/volunteer/events">Available Events</NavLink>
         <NavLink to="/volunteer/my-events">My Events</NavLink>
-        <NavLink to="/volunteer/history">History</NavLink>
-        <NavLink to="/volunteer/volunteer-profile">Profile</NavLink>
+        
+        <NavLink to="/volunteer/feedbacks">FeedBack</NavLink>
+
+        <NavLink to="/volunteer/profile">Profile</NavLink>
+        <NavLink to="/volunteer/help-support">Help&Support</NavLink>
       </aside>
 
       {/* MAIN CONTENT */}

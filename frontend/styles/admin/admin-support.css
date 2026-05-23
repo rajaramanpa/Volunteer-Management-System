@@ -1,0 +1,60 @@
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.filters select {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.admin-ticket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.admin-ticket-card {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-ticket-card h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.admin-ticket-card p {
+  font-size: 13px;
+  color: #475569;
+  margin: 6px 0;
+}
+
+.admin-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.resolve-btn {
+  background: #22c55e;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.resolved-text {
+  font-size: 12px;
+  font-weight: 700;
+  color: #166534;
+}

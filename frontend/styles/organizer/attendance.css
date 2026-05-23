@@ -1,0 +1,72 @@
+.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.attendance-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.attendance-filters select {
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+  color: #475569;
+  background: #f9fafb;
+}
+
+.attendance-list {
+  margin-top: 20px;
+}
+
+.attendance-card {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.attendance-card h4 {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+
+.attendance-card p {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.actions button {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.present {
+  background: #22c55e;
+  color: white;
+  margin-right: 8px;
+}
+
+.absent {
+  background: #ef4444;
+  color: white;
+}
+
+.empty-text {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 20px;
+}

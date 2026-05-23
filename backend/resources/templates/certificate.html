@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background: #fdfdfd;
+            padding: 40px;
+        }
+
+        .certificate {
+            border: 10px solid #1e3a8a;
+            padding: 40px;
+            position: relative;
+        }
+
+        .inner-border {
+            border: 4px solid #93c5fd;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 46px;
+            margin-bottom: 10px;
+            color: #1e3a8a;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #475569;
+            margin-bottom: 40px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .presented {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-size: 38px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #0f172a;
+            text-transform: uppercase;
+        }
+
+        .reason {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .event {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0 30px;
+            color: #1e40af;
+        }
+
+        .date {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #334155;
+        }
+
+        .footer {
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .signature-block {
+            text-align: center;
+            width: 30%;
+        }
+
+        .line {
+            border-top: 1px solid #000;
+            margin-bottom: 6px;
+        }
+
+        .role {
+            font-size: 14px;
+            color: #475569;
+        }
+
+        .seal {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            border: 4px solid #1e3a8a;
+            border-radius: 50%;
+            width: 110px;
+            height: 110px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: #1e3a8a;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<div class="certificate">
+    <div class="inner-border">
+
+        <div class="content">
+            <h1>Award Certificate</h1>
+            <div class="subtitle">This certificate is proudly presented to</div>
+
+            <div class="name">{{name}}</div>
+
+            <div class="reason">
+                For successfully participating in
+            </div>
+
+            <div class="event">{{event}}</div>
+
+            <div class="date">
+                Issued on {{date}}
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="signature-block">
+                <div class="line"></div>
+                <div class="role">Organizer</div>
+            </div>
+
+            <div class="signature-block">
+                <div class="line"></div>
+                <div class="role">Authorized Signature</div>
+            </div>
+        </div>
+
+        <div class="seal">
+            OFFICIAL<br/>CERTIFICATE
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

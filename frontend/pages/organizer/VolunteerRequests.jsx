@@ -117,11 +117,13 @@ function VolunteerRequests() {
             <h3>Volunteer Profile</h3>
             <p><b>Name:</b> {selectedVolunteer.volunteerName}</p>
             <p><b>Email:</b> {selectedVolunteer.volunteerEmail}</p>
-            <p><b>Skills:</b> {selectedVolunteer.skills || "Not specified"}</p>
+            <p><b>Skills:</b> {selectedVolunteer.skills }</p>
             <p><b>Availability:</b> {selectedVolunteer.availability || "Not specified"}</p>
-            <p><b>Age: </b>-</p>
-            <p><b>Gender: </b>-</p>
-            <p><b>Occupation: </b>-</p>
+            <p><b>Age: </b>{selectedVolunteer.age}</p>
+            <p><b>Gender: </b>{selectedVolunteer.gender}</p>
+            <p><b>Occupation: </b>{selectedVolunteer.occupation}</p>
+            <p><b>Phone:</b>{selectedVolunteer.phone}</p>
+            <p><b>Bio:</b>{selectedVolunteer.bio}</p>
             <button onClick={() => setSelectedVolunteer(null)}>
               Close
             </button>
